@@ -1,0 +1,59 @@
+<p align="center">
+<img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
+</p>
+
+<h1>Active Directory in Azure</h1>
+This tutorial outlines the implementation of Active Directory using Azure Virtual Machines.<br />
+
+
+<h2>Environments and Technologies Used</h2>
+
+- Microsoft Azure (Virtual Machines/Compute)
+- Remote Desktop
+- Active Directory Domain Services
+- PowerShell
+
+<h2>Operating Systems Used </h2>
+
+- Windows Server 2022
+- Windows 10 (21H2)
+
+<h2>High-Level Deployment and Configuration Steps</h2>
+
+- Step 1.) Setting up resources in Azure.
+- Step 2.) Ensuring Connectivity between Domain Controller(DC1) and Client Virtual Machines(Client1).
+- Step 3.) Active Directory Setup on Domain Controller (DC1)
+- Step 4.) Joining Client1 to Domain.
+- Step 5.) Setup Remote Desktop for non-administrative users on Client-1.
+- Step 6.) Create multiple additional users using Powershell, and log into Client1 using one of the addedd users.
+
+<h2> Step 1: Setting up Resources in Azure</h2>
+
+<p>
+<img src="https://imgur.com/zNW2qZj" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/2fumgSc"
+</p>
+<p>
+For this tutorial, we will be setting up two Virtual Machines in Azure. One of the virtual machines will serve as the Domain Controller, and the other will act as a client or user PC that can be used by someone within the domain.
+
+Step 1: Create both Virtual Machines in Azure.
+Domain Controller: Name: DC1, Operating System: Windows Server 2022
+Client / User PC: Name: Client1, Operating System: Windows 10
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/M6HGpXK" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 2: Set the Domain Controller's NIC Private IP address to be static so that it does not change.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
