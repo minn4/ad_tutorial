@@ -53,11 +53,11 @@ This important step will ensure that our Domain Controller's private IP address 
 <h2>Section II: Ensure Connectivity between client (client1) and domain controller (DC1)</h2>
 
 <p>
-In this section, we will be testing the connectivty between our client PC (client1), and our domain controller (DC1).
+In this section, we will be testing the connectivity between our client PC (client1), and our domain controller (DC1).
 </p>
 <p>
 To do this, we'll login to both virtual machines in Azure by using Remote Desktop on our local PC. 
-Once logged into our client PC(client1), we will try to test connectivty by pinging DC1's private IP address with the command 'ping -t <DC1's private ip address>'
+Once logged into our client PC(client1), we will try to test connectivty by pinging DC1's private IP address with the command 'ping -t (DC1's private ip address)'
 
 ![Azure_Setup10](https://github.com/user-attachments/assets/e066fd12-e599-4124-a4e5-895d2a462c57)
 
